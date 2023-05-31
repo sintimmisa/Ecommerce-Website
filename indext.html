@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile_view.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="./assets/css/desktop_view.css">
+    <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +19,9 @@
 </head>
 <body>
 
-    <header>
+    <header class="header">
         <div class="container">
-            <img src="" alt="" srcset="" class="logo">
+            <img src="./assets/images/logo_white.png" alt="" srcset="" class="logo">
 
             <nav class="navbar">
 
@@ -37,12 +40,33 @@
                     </li>
                 </ul>
             </nav>
+
+            <!--Mobile Menu-->
+
+        <div class="mobile-menu">
+            <i data-feather="user" class="icon"></i>
+            <i data-feather="shopping-cart" class="icon"></i>
+            <i data-feather="menu" class="icon"></i>
         </div>
+        </div>
+       
+    </section>
+       
     </header>
 
     <main>
+        <section class="hero-section">
+           <div class="overlay">
+            <div class="hero-content">
+                <h2>New Product Collection</h2>
+                <p><a href="#">Shop Now</a></p>
+            </div>
+        </div>
         
     </main>
+    <section style="height:100vh;display:block; position:relative">
+        <h2>Another section</h2>
+      </section>
     
 
 

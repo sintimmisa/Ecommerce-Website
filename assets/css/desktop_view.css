@@ -1,0 +1,35 @@
+@media screen and (min-width: 968px){
+   
+.navbar{
+    display: block;
+    
+}
+
+.navbar ul{
+    display:flex;
+    align-items: center;
+    justify-self: center;
+    margin-right:90px
+}
+
+.navbar ul li{
+    list-style-type:none;
+}
+.navbar a{
+    color:white;
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 500;
+}
+.logo{
+    height: 40%;
+}
+
+.hero-content{
+width: 521px;
+height: auto;
+padding: 50px;
+}
+    
+}
